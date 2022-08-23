@@ -1,0 +1,11 @@
+
+
+--Must install in Visual Studio 2019
+-- NuGet Package Manager / FontAwesome.Sharp
+
+
+-- C#/ Modern Flat UI + Font Awesome Icons, Multicolor, Highlight button, WinForm (Jan 4, 2020)
+https://www.youtube.com/watch?v=5AsJJl7Bhvc
+
+-- Font awesome
+https://fontawesome.com/v5.15/icons?d=gallery&p=2

@@ -1,0 +1,29 @@
+    <!-- OTL Database -->
+    <add name="ConnectionToSeeOTL" connectionString="Server=golab01.database.windows.net;
+                                                     Initial Catalog=ordertolab;
+                                                     Persist Security Info=False;
+                                                     User ID=SqlOrderToLab; 
+                                                     Password=erp-2022;
+                                                     MultipleActiveResultSets=True;
+                                                     Encrypt=True;
+                                                     Connection Timeout=30
+                                                 "/>
+
+    <!-- SiGA Database -->
+    <add name="ConnectionToSeeSiGA" connectionString="Data Source=10.0.10.99;
+                                                      Uid=logUser;
+                                                      Password=2015bueno$opti;
+                                                      Database=SiGA;
+                                                      port=3306;
+                                                  "/>
+
+    <!-- OLM Database -->
+    <add name="ConnectionToSeeLMO" connectionString="Server=tcp:lmo-sqlserver.database.windows.net,1433;
+                                                     Initial Catalog=lmo-sqlserver-db;
+                                                     Persist Security Info=False;
+                                                     User ID=lmoserversql;
+                                                     Password=}aRj`T]~H8x(m>Hk;
+                                                     MultipleActiveResultSets=False;
+                                                     Encrypt=True;
+                                                     TrustServerCertificate=False;
+                                                     Connection Timeout=30;

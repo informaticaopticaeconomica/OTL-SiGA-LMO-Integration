@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration-OTL-SIGA-LMO", "Integration-OTL-SIGA-LMO.csproj", "{93176E50-8EA0-483E-BC79-B2C7A39B7F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{EB5A30B7-3019-45E0-9896-79F0B59AC7AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93176E50-8EA0-483E-BC79-B2C7A39B7F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93176E50-8EA0-483E-BC79-B2C7A39B7F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93176E50-8EA0-483E-BC79-B2C7A39B7F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93176E50-8EA0-483E-BC79-B2C7A39B7F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5A30B7-3019-45E0-9896-79F0B59AC7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5A30B7-3019-45E0-9896-79F0B59AC7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5A30B7-3019-45E0-9896-79F0B59AC7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5A30B7-3019-45E0-9896-79F0B59AC7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {947B41CC-E819-455D-BCD6-65B6373BBCA0}
+	EndGlobalSection
+EndGlobal
