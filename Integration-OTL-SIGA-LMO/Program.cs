@@ -48,7 +48,7 @@ namespace Integration_OTL_SIGA_LMO
         //
         private static void ConfigureServices(ServiceCollection services)
         {
-            services.AddScoped<IServiceDB, ServiceDB>()
+            services.AddScoped<IServiceDB, ServiceDBConnection>()
                 .AddScoped<frmLayoutDesktop>();
         }
         //********************************************************************************************************

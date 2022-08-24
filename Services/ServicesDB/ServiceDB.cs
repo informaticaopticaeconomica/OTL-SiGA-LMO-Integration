@@ -21,7 +21,7 @@ namespace Services
 			private readonly string _connectionStringOTL = ConfigurationManager.ConnectionStrings["ConnectionToSeeOTL"].ConnectionString.ToString();
 			private readonly string _connectionStringSiGA = ConfigurationManager.ConnectionStrings["ConnectionToSeeSiGA"].ConnectionString.ToString();
 			private readonly string _connectionStringLMO = ConfigurationManager.ConnectionStrings["ConnectionToSeeLMO"].ConnectionString.ToString();
-			private readonly string _connectionStringLMOSiGA_DL_RD = ConfigurationManager.ConnectionStrings["ConnectionToSeeLMOSiGA_DL_RD"].ConnectionString.ToString();
+			//private readonly string _connectionStringLMOSiGA_DL_RD = ConfigurationManager.ConnectionStrings["ConnectionToSeeLMOSiGA_DL_RD"].ConnectionString.ToString();
 
 			//General variables
 			private int _oLimitDays = 30;

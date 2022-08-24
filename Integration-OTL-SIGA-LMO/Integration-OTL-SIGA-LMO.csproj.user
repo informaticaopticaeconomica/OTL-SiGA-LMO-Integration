@@ -4,10 +4,10 @@
     <ShowAllFiles>false</ShowAllFiles>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="frmLayoutDesktop.cs">
+    <Compile Update="frmLayoutShowMessage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmLayoutShowMessage.cs">
+    <Compile Update="frmLayoutDesktop.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

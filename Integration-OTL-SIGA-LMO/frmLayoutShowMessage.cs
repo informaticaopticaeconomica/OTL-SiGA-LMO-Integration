@@ -20,7 +20,7 @@ namespace Integration_OTL_SIGA_LMO
 
         private void frmLayoutShowMessage_Load(object sender, EventArgs e)
         {
-            this.lblMessage.Text = this.StringMessageFromForm;
+            this.lblMessage.Text = StringMessageFromForm;
         }
     }
 }

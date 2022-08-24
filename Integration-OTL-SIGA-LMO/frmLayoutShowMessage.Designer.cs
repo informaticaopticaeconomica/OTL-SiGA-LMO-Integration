@@ -1,4 +1,7 @@
 ﻿
+using System.Windows;
+using System.Windows.Controls;
+
 namespace Integration_OTL_SIGA_LMO
 {
     partial class frmLayoutShowMessage
@@ -7,6 +10,8 @@ namespace Integration_OTL_SIGA_LMO
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        
 
         /// <summary>
         /// Clean up any resources being used.
@@ -32,10 +37,10 @@ namespace Integration_OTL_SIGA_LMO
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblMessage = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            base.SuspendLayout();
             // 
             // panel1
-            // 
+            //
             this.panel1.BackColor = System.Drawing.Color.MidnightBlue;
             this.panel1.Controls.Add(this.lblMessage);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -47,7 +52,7 @@ namespace Integration_OTL_SIGA_LMO
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 11f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblMessage.ForeColor = System.Drawing.Color.White;
             this.lblMessage.Location = new System.Drawing.Point(78, 40);
             this.lblMessage.Name = "lblMessage";
@@ -57,23 +62,22 @@ namespace Integration_OTL_SIGA_LMO
             // 
             // frmLayoutShowMessage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 120);
-            this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "frmLayoutShowMessage";
+            base.AutoScaleDimensions = new System.Drawing.SizeF(7f, 17f);
+            base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            base.ClientSize = new System.Drawing.Size(583, 120);
+            base.Controls.Add(this.panel1);
+            this.Font = new System.Drawing.Font("Segoe UI", 10f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            base.Name = "frmLayoutShowMessage";
             this.Text = "Show Exception Message";
-            this.Load += new System.EventHandler(this.frmLayoutShowMessage_Load);
+            base.Load += new System.EventHandler(frmLayoutShowMessage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-
+            base.ResumeLayout(false);
         }
 
         #endregion
-
+        
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label lblMessage;
     }
